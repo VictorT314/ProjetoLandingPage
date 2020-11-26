@@ -1,20 +1,519 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Games Story</title>
-  </head>
-  <body>
-    
+</head>
+
+<body>
+    <!--Menu-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-dark">
+        <a class="navbar-brand text-primary" href="#">GameStory</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+            aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link text-success" href="#">Início </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-success" href="#">1ª a 3ª Ger</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-success" href="#">4ª a 6ª Ger</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-success" href="#">7ª a 9ª Ger</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-success" href="#">Contato</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Pesquisar</button>
+            </form>
+        </div>
+    </nav>
+    <!--/Menu-->
+
+    <!--Carousel-->
+    <div id="carouselExampleIndicators" class="carousel slide mt-5" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="assets/img/carousel1.jpg" alt="Primeiro Slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="assets/img/carousel2.jpg" alt="Segundo Slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="assets/img/carousel3.png" alt="Terceiro Slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
+    <!--/Carousel-->
+
+    <!--Jumbotron-->
+    <div class="jumbotron bg-success">
+        <div class="container">
+            <h1 class="display-4 text-white">Bem-vinde ao mundo dos games!</h1>
+            <p class="lead text-white">Conheça aqui uma breve história dos consoles existentes até o momento, que
+                marcaram gerações e foram fundamentais para a evolução dos jogos até onde conhecemos hoje em dia.</p>
+        </div>
+    </div>
+    <!--/Jumbotron-->
+
+    <!--Textos + Recursos-->
+    <div class="container mb-3 p-3">
+        <h1 class="mt-0 text-center">As primeiras gerações de consoles</h1>
+
+        <div class="media mt-5">
+            <img class="align-self-center mr-3 br-30" width="300" height="300" src="assets/img/odyssey.png"
+                alt="Imagem console odyssey">
+            <div class="media-body text-justify">
+                <h2 class="mt-0">O pai de todos os consoles</h2>
+                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras
+                    purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
+                    vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis
+                    natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia voluptatum voluptatibus vitae minus
+                    eveniet non labore molestiae? Velit quia fugiat consequuntur autem ducimus magni, eligendi libero
+                    sed, iusto quos commodi?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed autem mollitia fuga, obcaecati iusto
+                    dolore maxime laboriosam eius assumenda dignissimos earum sit nihil dolor cum quidem itaque?
+                    Praesentium, reprehenderit facere?
+                </p>
+            </div>
+        </div>
+
+        <div class="media mt-5">
+            <div class="media-body text-justify">
+                <h2 class="mt-0">A evolução dos cartuchos</h2>
+                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras
+                    purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
+                    vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis
+                    natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia voluptatum voluptatibus vitae minus
+                    eveniet non labore molestiae? Velit quia fugiat consequuntur autem ducimus magni, eligendi libero
+                    sed, iusto quos commodi?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed autem mollitia fuga, obcaecati iusto
+                    dolore maxime laboriosam eius assumenda dignissimos earum sit nihil dolor cum quidem itaque?
+                    Praesentium, reprehenderit facere?
+                </p>
+            </div>
+            <img class="align-self-center ml-3 br-30" width="300" height="300" src="assets/img/atari.jpg"
+                alt="Console atari">
+        </div>
+
+        <div class="media mt-5">
+            <img class="align-self-center mr-3 br-30" width="300" height="300" src="assets/img/nes.jpg"
+                alt="Console nintendinho">
+            <div class="media-body text-justify">
+                <h2 class="mt-0">A chegada de um ídolo</h2>
+                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras
+                    purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
+                    vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis
+                    natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia voluptatum voluptatibus vitae minus
+                    eveniet non labore molestiae? Velit quia fugiat consequuntur autem ducimus magni, eligendi libero
+                    sed, iusto quos commodi?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed autem mollitia fuga, obcaecati iusto
+                    dolore maxime laboriosam eius assumenda dignissimos earum sit nihil dolor cum quidem itaque?
+                    Praesentium, reprehenderit facere?
+                </p>
+            </div>
+        </div>
+        <h1 class="mt-5 text-center">Novas tecnologias: uma guerra entre gigantes</h1>
+
+        <div class="media mt-5">
+            <div class="media-body text-justify">
+                <h2 class="mt-0">A infância de muitos</h2>
+                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras
+                    purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
+                    vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis
+                    natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia voluptatum voluptatibus vitae minus
+                    eveniet non labore molestiae? Velit quia fugiat consequuntur autem ducimus magni, eligendi libero
+                    sed, iusto quos commodi?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed autem mollitia fuga, obcaecati iusto
+                    dolore maxime laboriosam eius assumenda dignissimos earum sit nihil dolor cum quidem itaque?
+                    Praesentium, reprehenderit facere?
+                </p>
+            </div>
+            <img class="align-self-center ml-3 br-30" width="300" height="300" src="assets/img/snes.PNG"
+                alt="Console Super Nintendo">
+        </div>
+
+        <div class="media mt-5">
+            <img class="align-self-center mr-3 br-30" width="300" height="300" src="assets/img/genesis.jpg"
+                alt="Console Mega Drive">
+            <div class="media-body text-justify">
+                <h2 class="mt-0">Um concorrente digno</h2>
+                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras
+                    purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
+                    vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis
+                    natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia voluptatum voluptatibus vitae minus
+                    eveniet non labore molestiae? Velit quia fugiat consequuntur autem ducimus magni, eligendi libero
+                    sed, iusto quos commodi?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed autem mollitia fuga, obcaecati iusto
+                    dolore maxime laboriosam eius assumenda dignissimos earum sit nihil dolor cum quidem itaque?
+                    Praesentium, reprehenderit facere?
+                </p>
+            </div>
+        </div>
+
+        <div class="media mt-5">
+            <div class="media-body text-justify">
+                <h2 class="mt-0">O divisor de águas dessa geração</h2>
+                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras
+                    purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
+                    vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis
+                    natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia voluptatum voluptatibus vitae minus
+                    eveniet non labore molestiae? Velit quia fugiat consequuntur autem ducimus magni, eligendi libero
+                    sed, iusto quos commodi?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed autem mollitia fuga, obcaecati iusto
+                    dolore maxime laboriosam eius assumenda dignissimos earum sit nihil dolor cum quidem itaque?
+                    Praesentium, reprehenderit facere?
+                </p>
+            </div>
+            <img class="align-self-center ml-3 br-30" width="300" height="300" src="assets/img/psone.jpg"
+                alt="Console Playstation">
+        </div>
+
+        <div class="media mt-5">
+            <img class="align-self-center mr-3 br-30 bg-light" width="300" height="300" src="assets/img/ps2.jpeg"
+                alt="Console Playstation 2">
+            <div class="media-body text-justify">
+                <h2 class="mt-0">A chegada de um novo mundo</h2>
+                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras
+                    purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
+                    vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis
+                    natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia voluptatum voluptatibus vitae minus
+                    eveniet non labore molestiae? Velit quia fugiat consequuntur autem ducimus magni, eligendi libero
+                    sed, iusto quos commodi?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed autem mollitia fuga, obcaecati iusto
+                    dolore maxime laboriosam eius assumenda dignissimos earum sit nihil dolor cum quidem itaque?
+                    Praesentium, reprehenderit facere?
+                </p>
+            </div>
+        </div>
+        <h1 class="mt-5 text-center">A geração moderna de consoles</h1>
+
+        <div class="media mt-5">
+            <div class="media-body text-justify">
+                <h2 class="mt-0">O início de uma nova aventura</h2>
+                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras
+                    purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
+                    vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis
+                    natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia voluptatum voluptatibus vitae minus
+                    eveniet non labore molestiae? Velit quia fugiat consequuntur autem ducimus magni, eligendi libero
+                    sed, iusto quos commodi?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed autem mollitia fuga, obcaecati iusto
+                    dolore maxime laboriosam eius assumenda dignissimos earum sit nihil dolor cum quidem itaque?
+                    Praesentium, reprehenderit facere?
+                </p>
+            </div>
+            <img class="align-self-center ml-3 br-30 bg-light" width="300" height="300" src="assets/img/ps3.png"
+                alt="Console Playstation 3">
+        </div>
+
+        <div class="media mt-5">
+            <img class="align-self-center mr-3 br-30 bg-light" width="300" height="300" src="assets/img/xbox360.jpg"
+                alt="Console Xbox 360">
+            <div class="media-body text-justify">
+                <h2 class="mt-0">A ascensão de outro gigante</h2>
+                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras
+                    purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
+                    vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis
+                    natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia voluptatum voluptatibus vitae minus
+                    eveniet non labore molestiae? Velit quia fugiat consequuntur autem ducimus magni, eligendi libero
+                    sed, iusto quos commodi?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed autem mollitia fuga, obcaecati iusto
+                    dolore maxime laboriosam eius assumenda dignissimos earum sit nihil dolor cum quidem itaque?
+                    Praesentium, reprehenderit facere?
+                </p>
+            </div>
+        </div>
+
+        <div class="media mt-5">
+            <div class="media-body text-justify">
+                <h2 class="mt-0">Uma nova forma de jogar</h2>
+                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras
+                    purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
+                    vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis
+                    natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia voluptatum voluptatibus vitae minus
+                    eveniet non labore molestiae? Velit quia fugiat consequuntur autem ducimus magni, eligendi libero
+                    sed, iusto quos commodi?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed autem mollitia fuga, obcaecati iusto
+                    dolore maxime laboriosam eius assumenda dignissimos earum sit nihil dolor cum quidem itaque?
+                    Praesentium, reprehenderit facere?
+                </p>
+            </div>
+            <img class="align-self-center ml-3 br-30 bg-light" width="300" height="300" src="assets/img/wii.jpg"
+                alt="Console Nintendo Wii">
+        </div>
+
+        <div class="media mt-5">
+            <img class="align-self-center mr-3 br-30 bg-light" width="300" height="300" src="assets/img/ps4.jpg"
+                alt="Console Playstation 4">
+            <div class="media-body text-justify">
+                <h2 class="mt-0">Novas tecnologias, novas aventuras</h2>
+                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras
+                    purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
+                    vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis
+                    natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia voluptatum voluptatibus vitae minus
+                    eveniet non labore molestiae? Velit quia fugiat consequuntur autem ducimus magni, eligendi libero
+                    sed, iusto quos commodi?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed autem mollitia fuga, obcaecati iusto
+                    dolore maxime laboriosam eius assumenda dignissimos earum sit nihil dolor cum quidem itaque?
+                    Praesentium, reprehenderit facere?
+                </p>
+            </div>
+        </div>
+
+        <div class="media mt-5">
+            <div class="media-body text-justify">
+                <h2 class="mt-0">A competição continua</h2>
+                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras
+                    purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
+                    vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis
+                    natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia voluptatum voluptatibus vitae minus
+                    eveniet non labore molestiae? Velit quia fugiat consequuntur autem ducimus magni, eligendi libero
+                    sed, iusto quos commodi?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed autem mollitia fuga, obcaecati iusto
+                    dolore maxime laboriosam eius assumenda dignissimos earum sit nihil dolor cum quidem itaque?
+                    Praesentium, reprehenderit facere?
+                </p>
+            </div>
+            <img class="align-self-center ml-3 br-30 bg-light" width="350" height="300" src="assets/img/xboxone.png"
+                alt="Console Xbox One">
+        </div>
+
+        <div class="media mt-5">
+            <img class="align-self-center mr-3 br-30 bg-light" width="350" height="250" src="assets/img/switch.jpg"
+                alt="Console Nintendo Switch">
+            <div class="media-body text-justify">
+                <h2 class="mt-0">O céu é o limite para a diversão</h2>
+                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras
+                    purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
+                    vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis
+                    natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia voluptatum voluptatibus vitae minus
+                    eveniet non labore molestiae? Velit quia fugiat consequuntur autem ducimus magni, eligendi libero
+                    sed, iusto quos commodi?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed autem mollitia fuga, obcaecati iusto
+                    dolore maxime laboriosam eius assumenda dignissimos earum sit nihil dolor cum quidem itaque?
+                    Praesentium, reprehenderit facere?
+                </p>
+            </div>
+        </div>
+        <h1 class="mt-5 text-center">O que vem agora?</h1>
+        <div class="container">
+            <img class="img-fluid br-30" src="assets/img/newgen.jpg" alt="Consoles nova geração">
+            <p class="mt-5 text-justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga delectus porro perferendis aut veniam
+                eaque et accusantium ducimus. Iusto possimus accusamus unde, aliquid architecto consequatur? At
+                obcaecati harum minus assumenda. Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro pariatur
+                esse amet ad maiores, repudiandae tempore ratione excepturi? Ab corporis repudiandae qui sed? Suscipit
+                omnis, ut mollitia repellat sint qui!
+            </p>
+            <p class="text-justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga delectus porro perferendis aut veniam
+                eaque et accusantium ducimus. Iusto possimus accusamus unde, aliquid architecto consequatur? At
+                obcaecati harum minus assumenda. Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro pariatur
+                esse amet ad maiores, repudiandae tempore ratione excepturi? Ab corporis repudiandae qui sed? Suscipit
+                omnis, ut mollitia repellat sint qui!
+            </p>
+        </div>
+
+    </div>
 
 
-    
+
+
+    <!--/Textos + Recursos-->
+
+    <!--Form-->
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col-md-12 p-5 text-center">
+                <h4>Entre em contato com a gente ;)</h4>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <form>
+                    <div class="form-group">
+                        <label for="email">Endereço de email</label>
+                        <input type="email" class="form-control" id="email" onkeyup="validaEmail()"
+                            placeholder="nome@exemplo.com">
+                        <div id= 'txtEmail'></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="assunto">Mensagem</label>
+                        <textarea class="form-control" id="assunto" rows="3" onkeyup="validaAssunto()"></textarea>
+                        <div id="txtAssunto"></div>
+                    </div>
+                </form>
+                <div class="form-group d-flex justify-content-end">
+                    <button onclick="enviar()" class="btn btn-outline-success">Enviar</button>
+                </div>
+            </div>
+
+
+
+            <div class="col-md-6">
+                <iframe class="w-100" src="https://www.google.com/maps/d/embed?mid=1GZFE2oLeNl1RMHcwBWEvPPgk3fA"
+                    width="510" height="330"></iframe>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!--/Form-->
+
+    <!--Rodapé-->
+    <hr>
+    <div class="container">
+        <footer>
+            <div class="row mb-3">
+                <div class="col-md-12 d-flex justify-content-center">
+                    <a href="https://github.com/VictorT314" target="_blank">
+                        <img class="tm-social p-1" src="assets/img/github.png"
+                            onmouseover="this.src='assets/img/github-color.png'"
+                            onmouseout="this.src='assets/img/github.png'" alt="Logo do Github">
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/victoraugustosouza314/" target="_blank">
+                        <img class="tm-social p-1" src="assets/img/linkedin.png"
+                            onmouseover="this.src='assets/img/linkedin-color.png'"
+                            onmouseout="this.src='assets/img/linkedin.png'" alt="Logo do Linkedin">
+                    </a>
+
+                    <a href="https://www.facebook.com/vicctor.master" target="_blank">
+                        <img class="tm-social p-1" src="assets/img/facebook.png"
+                            onmouseover="this.src='assets/img/facebook-color.png'"
+                            onmouseout="this.src='assets/img/facebook.png'" alt="Logo do Facebook">
+                    </a>
+
+                    <a href="https://www.instagram.com/victormathpirate/" target="_blank">
+                        <img class="tm-social p-1" src="assets/img/instagram.png"
+                            onmouseover="this.src='assets/img/instagram-color.png'"
+                            onmouseout="this.src='assets/img/instagram.png'" alt="Logo do Instagram">
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-center">
+                        Todos os direitos reservados a: Victor Augusto &copy;
+                    </p>
+                </div>
+            </div>
+
+
+
+        </footer>
+    </div>
+    <!--/Rodapé-->
+
+
     <!--Script JS-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
 </html>
