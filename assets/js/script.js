@@ -6,6 +6,7 @@ let assuntoOk = false
 email.style.width = '100%'
 
 
+
 function validaEmail(){
     let txtEmail = document.querySelector('#txtEmail')
     if (email.value.indexOf('@') == -1 || email.value.indexOf('.') == -1){

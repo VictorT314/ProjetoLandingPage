@@ -3,8 +3,8 @@
     text-align: center;
 }
 
-body{
-    background-color: rgb(255, 255, 255);
+.body{
+    scroll-behavior: smooth;
 }
 
 .justify{
